@@ -1,0 +1,3 @@
+# Analysis of Stacks and Queues
+
+A linked stack performs push and pop operations at the head because both operations can run in O(1) time without traversing the list. Using the tail would require additional work when removing the last node in a singly linked list. An array queue uses a circular structure so that empty spaces at the beginning can be reused after dequeue operations. Without circular indexing, the queue could waste available space even when some array positions are already empty.
